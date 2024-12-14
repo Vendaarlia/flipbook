@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta name="viewport" content="width = 1050, user-scalable = no" />
+    <title>Flipbook Effect</title>
+    <link rel="stylesheet" href="./css/basic.css" />
+    <script type="text/javascript" src="./extras/jquery.min.1.7.js"></script>
+    <script
+      type="text/javascript"
+      src="./extras/modernizr.2.5.3.min.js"
+    ></script>
+  </head>
+  <body>
+    <div class="bg_flipbook"></div>
+    <div class="copyright">
+      <h1>This is Flipbook Effect</h1>
+      <p>This not my illustration, and I don't have any intention to mock or disrespect all illustrator on the world. I'm using this for prototyping only on my project.</p>
+    </div>
+    <div class="flipbook-viewport">
+      <div class="container">
+        <div class="flipbook">
+          <div style="background-image: url(pages/kat-1.jpg)"></div>
+          <div style="background-image: url(pages/kat-2.jpg)"></div>
+          <div style="background-image: url(pages/kat-3.jpg)"></div>
+          <div style="background-image: url(pages/kat-4.jpg)"></div>
+          <div style="background-image: url(pages/kat-5.jpg)"></div>
+          <div style="background-image: url(pages/kat-6.jpg)"></div>
+
+          <!--
+          <div style="background-image: url(pages/kat-7.jpg)"></div>
+          <div style="background-image: url(pages/kat-8.jpg)"></div>
+          <div style="background-image: url(pages/kat-9.jpg)"></div>
+          <div style="background-image: url(pages/kat-10.jpg)"></div>
+
+          <div style="background-image: url(pages/kat-11.jpg)"></div>
+          <div style="background-image: url(pages/kat-12.jpg)"></div>
+          <div style="background-image: url(pages/kat-13.jpg)"></div>
+          <div style="background-image: url(pages/kat-14.jpg)"></div>
+          <div style="background-image: url(pages/kat-15.jpg)"></div>
+          <div style="background-image: url(pages/kat-16.jpg)"></div>
+          <div style="background-image: url(pages/kat-17.jpg)"></div>
+          <div style="background-image: url(pages/kat-18.jpg)"></div>
+          <div style="background-image: url(pages/kat-19.jpg)"></div>
+          <div style="background-image: url(pages/kat-20.jpg)"></div>
+
+          <div style="background-image: url(pages/kat-21.jpg)"></div>
+          <div style="background-image: url(pages/kat-22.jpg)"></div>
+          <div style="background-image: url(pages/kat-23.jpg)"></div>
+          <div style="background-image: url(pages/kat-24.jpg)"></div>
+          <div style="background-image: url(pages/kat-25.jpg)"></div>
+          <div style="background-image: url(pages/kat-26.jpg)"></div>
+          <div style="background-image: url(pages/kat-27.jpg)"></div>
+          <div style="background-image: url(pages/kat-28.jpg)"></div>
+          <div style="background-image: url(pages/kat-29.jpg)"></div>
+          <div style="background-image: url(pages/kat-30.jpg)"></div>
+
+          <div style="background-image: url(pages/kat-31.jpg)"></div>
+          <div style="background-image: url(pages/kat-32.jpg)"></div>
+          <div style="background-image: url(pages/kat-33.jpg)"></div>
+          <div style="background-image: url(pages/kat-34.jpg)"></div>
+          <div style="background-image: url(pages/kat-35.jpg)"></div>
+          <div style="background-image: url(pages/kat-36.jpg)"></div>
+          <div style="background-image: url(pages/kat-37.jpg)"></div>
+          <div style="background-image: url(pages/kat-38.jpg)"></div>
+          <div style="background-image: url(pages/kat-39.jpg)"></div>
+          <div style="background-image: url(pages/kat-40.jpg)"></div>
+
+          <div style="background-image: url(pages/kat-41.jpg)"></div>
+          <div style="background-image: url(pages/kat-42.jpg)"></div>
+          <div style="background-image: url(pages/kat-43.jpg)"></div>
+          <div style="background-image: url(pages/kat-44.jpg)"></div>
+          <div style="background-image: url(pages/kat-45.jpg)"></div>
+          <div style="background-image: url(pages/kat-46.jpg)"></div>
+          <div style="background-image: url(pages/kat-47.jpg)"></div>
+          <div style="background-image: url(pages/kat-48.jpg)"></div>
+          <div style="background-image: url(pages/kat-49.jpg)"></div>
+          <div style="background-image: url(pages/kat-50.jpg)"></div>
+
+          <div style="background-image: url(pages/kat-51.jpg)"></div>
+          <div style="background-image: url(pages/kat-52.jpg)"></div>
+          <div style="background-image: url(pages/kat-53.jpg)"></div>
+          <div style="background-image: url(pages/kat-54.jpg)"></div>
+          <div style="background-image: url(pages/kat-55.jpg)"></div>
+          <div style="background-image: url(pages/kat-56.jpg)"></div>
+          <div style="background-image: url(pages/kat-57.jpg)"></div>
+          <div style="background-image: url(pages/kat-58.jpg)"></div>
+          <div style="background-image: url(pages/kat-59.jpg)"></div>
+          <div style="background-image: url(pages/kat-60.jpg)"></div>
+
+          <div style="background-image: url(pages/kat-61.jpg)"></div>
+          <div style="background-image: url(pages/kat-62.jpg)"></div>
+          <div style="background-image: url(pages/kat-63.jpg)"></div>
+          <div style="background-image: url(pages/kat-64.jpg)"></div>
+        -->
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      function loadApp() {
+        const flipbook = $(".flipbook");
+
+        function setFlipbookDisplay() {
+          const viewportWidth = window.innerWidth;
+
+          const displayMode = viewportWidth <= 900 ? "single" : "double";
+          const widthDin = viewportWidth <= 900 ? 355 : 922;
+          const heightDin = viewportWidth <= 900 ? 500 : 600;
+
+          if (flipbook.data("turn")) {
+            flipbook.turn("display", displayMode);
+            flipbook.turn("size", widthDin, heightDin);
+          } else {
+            flipbook.turn({
+              display: displayMode,
+			  width: widthDin,
+			  height: heightDin,
+              elevation: 100,
+              gradients: true,
+              autoCenter: true,
+            });
+          }
+        }
+
+        setFlipbookDisplay();
+        window.addEventListener("resize", setFlipbookDisplay);
+      }
+
+	  
+      // Load Turn.js dengan YepNope
+      yepnope({
+        test: Modernizr.csstransforms,
+        yep: ["./lib/turn.js"],
+        nope: ["./lib/turn.html4.min.js"],
+        both: ["./css/basic.css"],
+        complete: loadApp,
+      });
+    </script>
+  </body>
+</html>
